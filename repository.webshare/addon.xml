@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.webshare" name="Webshare Repository" version="1.0.0" provider-name="ChatGPT">
+    <extension point="xbmc.addon.repository" name="Webshare Repository">
+        <info compressed="false">https://example.com/repository.webshare/addons.xml</info>
+        <checksum>https://example.com/repository.webshare/addons.xml.md5</checksum>
+        <datadir zip="true">https://example.com/repository.webshare/zips/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Webshare plugin repository</summary>
+        <description lang="en">Repository for the Webshare FilmPlayer Kodi plugin</description>
+        <platform>all</platform>
+    </extension>
+</addon>

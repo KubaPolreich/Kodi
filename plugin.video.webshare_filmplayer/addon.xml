@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.webshare_filmplayer"
+       version="1.0.1"
+       name="Webshare FilmPlayer"
+       provider-name="ChatGPT">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="main.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Stream test videos (for now) via Webshare</summary>
+        <description lang="en">This is an initial prototype of a Kodi video plugin for Webshare.cz</description>
+        <platform>all</platform>
+    </extension>
+</addon>
