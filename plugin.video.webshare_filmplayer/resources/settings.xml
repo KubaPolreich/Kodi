@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<settings>
-    <category label="Webshare Settings">
-        <setting id="api_token" type="text" label="API Token" default="" />
-    </category>
-</settings>
